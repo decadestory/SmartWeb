@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/st.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/audio.js"></script>
+</head>
+<body>
+    <header class="hd_1">
+        <a href="/Soul/Index" class="btn">
+            <i class="fa fa-rebel"></i>
+            心灵旅客
+        </a>
+            @if (ViewBag.PageType == "Index")
+        {
+            <i class="fa fa-bars to_right"></i>
+        }
+        else if (ViewBag.PageType == "Add")
+        {
+            <a href="javascript:void(0);" class="btn to_right">完成添加</a>
+        }
+    </header>
+    @RenderBody()
+    <script src="~/Scripts/Soul.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "心灵旅客|添加内容";
+    Layout = "~/Views/Shared/Layout.cshtml";
+
+    ViewBag.PageType = "Add";    
+}
+
+<div class="container">
+    <article>
+        <aside class="add">
+            <p>标题</p>
+            <input type="text" name="Title" value="" />
+            <p>配图</p>
+            <img src="#" alt="" onerror="this.src='/Images/2.jpg'" style="width:100%;min-height:200px;" />
+            <p>音频地址</p>
+            <input type="text" name="Audio" value="" />
+            <p>内容描述</p>
+            <textarea name="Summary" value=""></textarea>
+            <p>标题背景</p>
+            <div>
+                <a class="csel orange"></a>
+                <a class="csel blue"></a>
+                <a class="csel pink"></a>
+                <a class="csel green"></a>
+                <a class="csel purple"></a>
+                <a class="csel black"></a>
+            </div>
+            <p>
+                推荐 
+                <input id="showtype" type="checkbox" name="ShowType" value="" />
+            </p>
+        </aside>
+    </article>
+</div>

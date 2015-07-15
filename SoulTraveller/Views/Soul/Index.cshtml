@@ -1,0 +1,45 @@
+﻿@model List<Sw.Base.Entity.Souler>
+@{
+    ViewBag.Title = "心灵旅客|来一口,就可以改变世界";
+    Layout = "~/Views/Shared/Layout.cshtml";
+
+    ViewBag.PageType = "Index";
+}
+
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <article class="item">
+            <header @*style="background-color:@item.Colors"*@>@item.Title</header>
+            <aside>
+                <img src="/@item.Img">
+                <input class="audiosrc" type="hidden" value="@item.Audio" />
+                <i class="fa fa-play-circle-o fa-3x playicon"></i>
+            </aside>
+            <footer>
+                <table>
+                    <tr>
+                        <td colspan="4" class="des">
+                            @item.Summary
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-comments"> 评论(@item.Comment)</i>
+                        </td>
+                        <td>
+                            <i class="fa fa-share-alt"> 分享(@item.Shared)</i>
+                        </td>
+                        <td>
+                            <i class="fa fa-heart"> 浏览(@item.Views)</i>
+                        </td>
+                        <td>
+                            <i class="fa fa-thumbs-up"> 赞(@item.Applaud)</i>
+                        </td>
+                    </tr>
+                </table>
+            </footer>
+        </article>
+
+    }
+</div>
