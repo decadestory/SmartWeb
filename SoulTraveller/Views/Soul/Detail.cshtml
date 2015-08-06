@@ -1,0 +1,44 @@
+﻿@model Sw.Base.Entity.Souler
+@{
+    ViewBag.Title = "心灵旅客|来一口,就可以改变世界";
+    Layout = "~/Views/Shared/Layout.cshtml";
+
+    ViewBag.PageType = "Index";
+}
+
+
+<div class="container">
+        <article class="item">
+            <header sid="@Model.Id" style="background-color:@Model.Colors">@Model.Title</header>
+            <aside>
+                <img src="@Model.Img">
+                <input class="audiosrc" type="hidden" value="@Model.Audio" />
+                <i class="fa fa-play-circle-o fa-3x playicon"></i>
+            </aside>
+            <footer>
+                <table>
+                    <tr>
+                        <td colspan="4" class="des">
+                            @Model.Summary
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-comments"> 评论(@Model.Comment)</i>
+                        </td>
+                        <td>
+                            <i class="fa fa-share-alt"> 分享(@Model.Shared)</i>
+                        </td>
+                        <td>
+                            <i class="fa fa-heart"> 浏览(@Model.Views)</i>
+                        </td>
+                        <td>
+                            <i class="fa fa-thumbs-up"> 赞(@Model.Applaud)</i>
+                        </td>
+                    </tr>
+                </table>
+            </footer>
+        </article>
+</div>
+<script src="~/Scripts/soul.js"></script>
+

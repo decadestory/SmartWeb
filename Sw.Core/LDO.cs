@@ -43,7 +43,7 @@ namespace Sw.Core
         }
 
 
-        public static T Get(int id)
+        public static T Get(string id)
         {
             var col = GetCol();
             return col.FindById(id);

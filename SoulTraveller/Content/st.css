@@ -90,74 +90,86 @@
 
 
 input {
-    width:100%;
-    border:1px solid #ccc;
-    height:35px;
-    line-height:35px;
-    border-radius:3px;
-    font-size:16px;
-    font-family:"微软雅黑";
-    text-indent:10px;
-    color:#888;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    text-indent: 10px;
+    color: #888;
 }
 
 textarea {
-    width:100%;
-    border:1px solid #ccc;
-    border-radius:3px;
-    height:90px;
-    font-size:16px;
-    font-family:"微软雅黑";
-    text-indent:10px;
-    padding:2px 0;
-    color:#888;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 90px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    text-indent: 10px;
+    padding: 2px 0;
+    color: #888;
 }
 
-.btn{
-    display:inline-block;
-    text-decoration:none;
-    color:#fff;
-    font-weight:normal;
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
 }
 
 .csel {
-    display:inline-block;
-    width:40px;
-    height:40px;
-    border-radius:20px;
-    margin-right:5px;
-    cursor:pointer;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 5px;
+    cursor: pointer;
 }
 
 .orange {
-    background-color:#f19845;
+    background-color: #f19845;
 }
 
 .green {
-    background-color:#3cbe67;
+    background-color: #3cbe67;
 }
 
 .blue {
-    background-color:#35c9ea;
+    background-color: #35c9ea;
 }
 
 .black {
-    background-color:#808080;
+    background-color: #808080;
 }
 
 .pink {
-    background-color:#fa6a84;
+    background-color: #fa6a84;
 }
 
 .purple {
-    background-color:#ed6aed;
+    background-color: #ed6aed;
 }
 
 #showtype {
-    width:16px;
-    height:16px;
-    line-height:16px;
-    vertical-align:middle;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.active {
+    box-shadow: 0px 0px 10px #35c9ea;
 }
 
 
+#uploader {
+    display: none;
+}
+
+#image {
+    width: 100%;
+    cursor:pointer;
+}

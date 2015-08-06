@@ -5,14 +5,13 @@
 
     ViewBag.PageType = "Index";
 }
-
 <div class="container">
     @foreach (var item in Model)
     {
-        <article class="item">
-            <header @*style="background-color:@item.Colors"*@>@item.Title</header>
+        <article sid="@item.Id" class="item">
+            <header style="background-color:@item.Colors">@item.Title</header>
             <aside>
-                <img src="/@item.Img">
+                <img src="@item.Img">
                 <input class="audiosrc" type="hidden" value="@item.Audio" />
                 <i class="fa fa-play-circle-o fa-3x playicon"></i>
             </aside>
@@ -40,6 +39,6 @@
                 </table>
             </footer>
         </article>
-
     }
 </div>
+<script src="~/Scripts/soul.js"></script>

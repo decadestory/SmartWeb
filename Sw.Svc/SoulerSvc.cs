@@ -21,5 +21,11 @@ namespace Sw.Svc
         {
             return LDO<Souler>.Add(souler);
         }
+
+
+        public Souler Get(string id)
+        {
+            return LDO<Souler>.Get(id);
+        }
     }
 }

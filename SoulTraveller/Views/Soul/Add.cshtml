@@ -6,20 +6,26 @@
     ViewBag.PageType = "Add";    
 }
 
+
+<script src="~/Scripts/jquery.form.js"></script>
+<script src="~/Scripts/formsubmit.js"></script>
 <div class="container">
     <article>
         <aside class="add">
             <p>标题</p>
             <input type="text" name="Title" value="" />
             <p>配图</p>
-            <img src="#" alt="" onerror="this.src='/Images/2.jpg'" style="width:100%;min-height:200px;" />
+            <img id="image" src="#" onerror="this.src='/Images/2.jpg'" />
+            <form id="form" enctype="multipart/form-data">
+                <input id="uploader" name="uploader" type="file" />
+            </form>
             <p>音频地址</p>
             <input type="text" name="Audio" value="" />
             <p>内容描述</p>
             <textarea name="Summary" value=""></textarea>
             <p>标题背景</p>
-            <div>
-                <a class="csel orange"></a>
+            <div id="Color">
+                <a class="csel orange active"></a>
                 <a class="csel blue"></a>
                 <a class="csel pink"></a>
                 <a class="csel green"></a>
@@ -33,3 +39,4 @@
         </aside>
     </article>
 </div>
+<script src="~/Scripts/add.js"></script>

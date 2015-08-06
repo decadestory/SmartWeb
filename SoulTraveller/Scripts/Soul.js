@@ -3,17 +3,17 @@
     function status2play(obj, flag) {
         if (flag == 1) { //转成正在播放状态图标
             $('.fa-pause').addClass("fa-play-circle-o fa-3x");
-            $('.fa-pause').removeClass('fa-pause fa-2x');   
+            $('.fa-pause').removeClass('fa-pause fa-2x');
 
             obj.removeClass("fa-play-circle-o fa-3x");
             obj.addClass("fa-pause fa-2x");
             $(".audiosrc").removeAttr('isplaying');
 
             audio.addEventListener('ended', function () {
-                status2play(obj,0);
+                status2play(obj, 0);
             }, false);
 
-            
+
         } else if (flag == 0) { //转成没有播放状态图标
             obj.removeClass("fa-pause fa-2x");
             obj.addClass("fa-play-circle-o fa-3x");
@@ -44,4 +44,10 @@
 
 
     });
+
+    $('.item').live("click", function () {
+
+        window.location.href = "/Soul/Detail/" + $(this).attr("sid");
+    });
+
 });
