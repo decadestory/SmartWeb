@@ -99,6 +99,7 @@
     <Content Include="Scripts\add.js" />
     <Content Include="Scripts\audio.js" />
     <Content Include="Scripts\formsubmit.js" />
+    <Content Include="Scripts\index.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery.form.js" />
     <Content Include="Scripts\soul.js" />

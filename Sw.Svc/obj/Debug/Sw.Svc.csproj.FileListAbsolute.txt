@@ -1,10 +1,10 @@
 C:\AFILES\Csharp\SmartWeb\Sw.Svc\bin\Debug\Sw.Svc.dll
 C:\AFILES\Csharp\SmartWeb\Sw.Svc\bin\Debug\Sw.Svc.pdb
-C:\AFILES\Csharp\SmartWeb\Sw.Svc\obj\Debug\Sw.Svc.csprojResolveAssemblyReference.cache
-C:\AFILES\Csharp\SmartWeb\Sw.Svc\obj\Debug\Sw.Svc.dll
-C:\AFILES\Csharp\SmartWeb\Sw.Svc\obj\Debug\Sw.Svc.pdb
 C:\AFILES\Csharp\SmartWeb\Sw.Svc\bin\Debug\LiteDB.dll
 C:\AFILES\Csharp\SmartWeb\Sw.Svc\bin\Debug\Sw.Base.dll
 C:\AFILES\Csharp\SmartWeb\Sw.Svc\bin\Debug\Sw.Core.dll
 C:\AFILES\Csharp\SmartWeb\Sw.Svc\bin\Debug\Sw.Base.pdb
 C:\AFILES\Csharp\SmartWeb\Sw.Svc\bin\Debug\Sw.Core.pdb
+C:\AFILES\Csharp\SmartWeb\Sw.Svc\obj\Debug\Sw.Svc.csprojResolveAssemblyReference.cache
+C:\AFILES\Csharp\SmartWeb\Sw.Svc\obj\Debug\Sw.Svc.dll
+C:\AFILES\Csharp\SmartWeb\Sw.Svc\obj\Debug\Sw.Svc.pdb

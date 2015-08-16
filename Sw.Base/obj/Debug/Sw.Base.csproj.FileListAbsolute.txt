@@ -1,5 +1,4 @@
 C:\AFILES\Csharp\SmartWeb\Sw.Base\bin\Debug\Sw.Base.dll
 C:\AFILES\Csharp\SmartWeb\Sw.Base\bin\Debug\Sw.Base.pdb
-C:\AFILES\Csharp\SmartWeb\Sw.Base\obj\Debug\Sw.Base.csprojResolveAssemblyReference.cache
 C:\AFILES\Csharp\SmartWeb\Sw.Base\obj\Debug\Sw.Base.dll
 C:\AFILES\Csharp\SmartWeb\Sw.Base\obj\Debug\Sw.Base.pdb

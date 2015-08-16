@@ -23,7 +23,7 @@ namespace Sw.Svc
         }
 
 
-        public Souler Get(string id)
+        public Souler Get(int id)
         {
             return LDO<Souler>.Get(id);
         }

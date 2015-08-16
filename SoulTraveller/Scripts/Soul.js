@@ -22,7 +22,7 @@
 
 
 
-    $('.playicon').on('click', function () {
+    $(document).on('click', '.playicon', function () {
         var s = $(this).parent().find(".fa-play-circle-o").size();
         var ing = $(this).parent().find(".audiosrc").attr("isplaying");
 
@@ -41,13 +41,6 @@
                 $(this).parent().find(".audiosrc").attr("isplaying", 1);
             }
         }
-
-
-    });
-
-    $('.item').live("click", function () {
-
-        window.location.href = "/Soul/Detail/" + $(this).attr("sid");
     });
 
 });

@@ -5,7 +5,9 @@
 
     ViewBag.PageType = "Index";
 }
-<div class="container">
+
+<script src="~/Scripts/index.js"></script>
+<div class="container" page="2">
     @foreach (var item in Model)
     {
         <article sid="@item.Id" class="item">
@@ -40,5 +42,9 @@
             </footer>
         </article>
     }
+</div>
+<div class="loading">
+    <i class="fa fa-spinner fa-spin"></i>
+    <span>精彩马上到，请耐心等待...</span>
 </div>
 <script src="~/Scripts/soul.js"></script>

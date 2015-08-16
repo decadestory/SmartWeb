@@ -24,11 +24,11 @@
 
 
 .container {
-    padding: 40px 3% 20px 3%;
+    padding: 45px 3% 20px 3%;
 }
 
     .container article {
-        margin-top: 20px;
+        margin-top: 25px;
         /* border: 1px solid #43a278;*/
         box-shadow: 0 0 8px #ccc;
         color: #888;
@@ -78,6 +78,16 @@
                 padding: 3px 5px;
                 line-height: 20px;
             }
+
+
+     .loading {
+        height:35px;
+        padding:-5px 0 10px 0;
+        text-align:center;
+        display:none;
+        font-size:13px;
+        color:#888;
+    }
 
     /*添加页面*/
     .container .add {
