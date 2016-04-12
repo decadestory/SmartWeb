@@ -159,6 +159,7 @@
     <Content Include="Stores\data.db" />
     <Content Include="Views\Soul\Add.cshtml" />
     <Content Include="Views\Soul\Detail.cshtml" />
+    <None Include="Properties\PublishProfiles\xxx.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

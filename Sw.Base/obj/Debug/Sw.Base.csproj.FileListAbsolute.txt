@@ -2,3 +2,8 @@ C:\AFILES\Csharp\SmartWeb\Sw.Base\bin\Debug\Sw.Base.dll
 C:\AFILES\Csharp\SmartWeb\Sw.Base\bin\Debug\Sw.Base.pdb
 C:\AFILES\Csharp\SmartWeb\Sw.Base\obj\Debug\Sw.Base.dll
 C:\AFILES\Csharp\SmartWeb\Sw.Base\obj\Debug\Sw.Base.pdb
+D:\Projects\GitHub\SmartWeb\Sw.Base\bin\Debug\Sw.Base.dll
+D:\Projects\GitHub\SmartWeb\Sw.Base\bin\Debug\Sw.Base.pdb
+D:\Projects\GitHub\SmartWeb\Sw.Base\obj\Debug\Sw.Base.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\SmartWeb\Sw.Base\obj\Debug\Sw.Base.dll
+D:\Projects\GitHub\SmartWeb\Sw.Base\obj\Debug\Sw.Base.pdb

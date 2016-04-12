@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Publishs\SmartWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/LiteDB.dll">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="bin/SoulTraveller.dll">
+      <publishTime>04/12/2016 15:16:05</publishTime>
+    </File>
+    <File Include="bin/Sw.Base.dll">
+      <publishTime>04/12/2016 12:31:02</publishTime>
+    </File>
+    <File Include="bin/Sw.Core.dll">
+      <publishTime>04/12/2016 12:31:03</publishTime>
+    </File>
+    <File Include="bin/Sw.Svc.dll">
+      <publishTime>04/12/2016 15:16:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/.bower.json">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/.gitignore">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/.npmignore">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/bower.json">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/css/font-awesome.css">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/css/font-awesome.css.map">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/css/font-awesome.min.css">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/animated.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/bordered-pulled.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/core.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/fixed-width.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/font-awesome.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/icons.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/larger.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/list.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/mixins.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/path.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/rotated-flipped.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/stacked.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/less/variables.less">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/font-awesome.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_animated.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_core.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_fixed-width.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_icons.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_larger.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_list.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_mixins.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_path.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_stacked.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/font-awesome/scss/_variables.scss">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Content/st.css">
+      <publishTime>04/12/2016 15:20:11</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/1.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/10.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/2.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/3.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/4.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/5.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/6.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/7.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/8.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/9.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Images/nopic.jpg">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Scripts/add.js">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Scripts/audio.js">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Scripts/formsubmit.js">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Scripts/index.js">
+      <publishTime>04/12/2016 15:06:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery.form.js">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Scripts/soul.js">
+      <publishTime>04/12/2016 13:27:57</publishTime>
+    </File>
+    <File Include="Stores/data.db">
+      <publishTime>04/12/2016 15:16:06</publishTime>
+    </File>
+    <File Include="Stores/LiteDB.dll">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Stores/LiteDB.Shell.exe">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Views/Shared/Layout.cshtml">
+      <publishTime>04/12/2016 12:37:56</publishTime>
+    </File>
+    <File Include="Views/Soul/Add.cshtml">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Views/Soul/Detail.cshtml">
+      <publishTime>04/12/2016 12:47:14</publishTime>
+    </File>
+    <File Include="Views/Soul/Index.cshtml">
+      <publishTime>04/12/2016 14:56:59</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>04/11/2016 17:12:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/12/2016 12:31:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

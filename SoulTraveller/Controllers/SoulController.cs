@@ -21,7 +21,7 @@ namespace SoulTraveller.Controllers
         }
 
         [HttpPost]
-        public ActionResult GetPage(int page,int len=4) 
+        public ActionResult GetPage(int page, int len = 4)
         {
             var res = svc.GetPage(page, len);
             return Json(res);
@@ -55,6 +55,34 @@ namespace SoulTraveller.Controllers
         }
 
         [HttpPost]
+        public ActionResult Appauld(int id)
+        {
+            var cnt = svc.AddApplaud(id);
+            return Json(new { cnt });
+        }
+
+        [HttpPost]
+        public ActionResult Views(int id)
+        {
+            var cnt = svc.AddView(id);
+            return Json(new { cnt });
+        }
+
+        [HttpPost]
+        public ActionResult Shares(int id)
+        {
+            var cnt = svc.AddShareTimes(id);
+            return Json(new { cnt });
+        }
+
+        [HttpPost]
+        public ActionResult Comments(int id)
+        {
+            var cnt = svc.AddComment(id);
+            return Json(new { cnt = 1 });
+        }
+
+        [HttpPost]
         public ActionResult Upload()
         {
             var file = HttpContext.Request.Files.Get("uploader");
@@ -82,6 +110,8 @@ namespace SoulTraveller.Controllers
 
             return Json(new { url = dbname });
         }
+
+
 
 
     }

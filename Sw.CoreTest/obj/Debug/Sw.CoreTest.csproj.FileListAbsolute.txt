@@ -7,3 +7,12 @@ C:\AFILES\Csharp\SmartWeb\Sw.CoreTest\bin\Debug\Sw.Core.pdb
 C:\AFILES\Csharp\SmartWeb\Sw.CoreTest\obj\Debug\Sw.CoreTest.csprojResolveAssemblyReference.cache
 C:\AFILES\Csharp\SmartWeb\Sw.CoreTest\obj\Debug\Sw.CoreTest.dll
 C:\AFILES\Csharp\SmartWeb\Sw.CoreTest\obj\Debug\Sw.CoreTest.pdb
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\bin\Debug\Sw.CoreTest.dll
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\bin\Debug\Sw.CoreTest.pdb
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\bin\Debug\Sw.Base.dll
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\bin\Debug\Sw.Core.dll
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\bin\Debug\Sw.Base.pdb
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\bin\Debug\Sw.Core.pdb
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\obj\Debug\Sw.CoreTest.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\obj\Debug\Sw.CoreTest.dll
+D:\Projects\GitHub\SmartWeb\Sw.CoreTest\obj\Debug\Sw.CoreTest.pdb

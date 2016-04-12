@@ -1,0 +1,5 @@
+D:\Projects\GitHub\SmartWeb\Sw.Base\bin\Release\Sw.Base.dll
+D:\Projects\GitHub\SmartWeb\Sw.Base\bin\Release\Sw.Base.pdb
+D:\Projects\GitHub\SmartWeb\Sw.Base\obj\Release\Sw.Base.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\SmartWeb\Sw.Base\obj\Release\Sw.Base.dll
+D:\Projects\GitHub\SmartWeb\Sw.Base\obj\Release\Sw.Base.pdb
